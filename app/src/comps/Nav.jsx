@@ -59,7 +59,7 @@ function Nav(){
 
     return (
 
-        <div className="w-full sm:w-screen  bg-slate-900/75 text-slate-200 text-lg  sm:text-lg sm:place-items-center sm:p-2 fixed z-20">
+        <div className="w-full sm:w-screen  bg-yellow-700/90 text-slate-200 text-lg  sm:text-lg sm:place-items-center sm:p-2 fixed z-20">
             
             <nav className='grid space-y-4 sm:space-y-0 sm:flex sm:flex-row sm:place-items-center  sm:space-x-16 px-4 sm:px-8 justify-start sm:justify-center sm:py-2'>
             {((windowSize<=640)&&(navBtn))?<button className='my-4' onClick={() => {
@@ -75,7 +75,7 @@ function Nav(){
                 <a href='#' className={navItmClass}><BiMessage className='text-3xl'/><span>Contact Us</span></a>
             </nav>
 
-            {(windowSize<=640)?<div ref={slideMenu} className='fixed w-0 h-[100vh] bg-slate-900/90 flex-col place-items-center justify-center tracking-[1px] py-40  text-2xl origin-left duration-500 '  >
+            {(windowSize<=640)?<div ref={slideMenu} className='fixed w-0 h-[100vh] bg-yellow-700/95 flex-col place-items-center justify-center tracking-[1px] py-40  text-2xl origin-left duration-500 '  >
                 <div ref = {menuItems} className='space-y-12 disappear'>
                 <a href='#' className='flex justify-center place-items-center space-x-2'><FaHome className='text-4xl '/><span>Home</span></a>
                 <a href='#' className='flex justify-center place-items-center space-x-2'><GiForkKnifeSpoon className='text-3xl'/><span>Menu</span></a>

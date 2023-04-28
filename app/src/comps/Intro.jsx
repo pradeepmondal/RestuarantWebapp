@@ -5,17 +5,11 @@ import { useParallax } from 'react-scroll-parallax';
 import React, { useRef, useState } from 'react';
 import {BsBalloonHeartFill} from 'react-icons/bs'
 
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-      currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
-  }
 
 export default function Intro(){
 
-    const contentBlock = 'sm:h-[100vh] sm:w-screen'
+
+   
 
     const slides = [
         {url: 'https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg'},
@@ -69,12 +63,12 @@ export default function Intro(){
     
 
     return (
-        <div className='w-[100%] h-[70vh] sm:h-[95vh] bg-slate-950'>
+        <div className='w-[100%] h-[100vh] sm:h-[100vh] bg-gray-900'>
             
-            <div className='max-w-[90%] sm:max-w-[80%] h-[45vh] sm:h-[65vh] w-full mx-auto pt-[14vh]  z-0 '>
-                <div style={{backgroundImage: `url(${slides[slideIndex].url})`}} className='w-full h-full bg-center bg-cover rounded-3xl duration-500 border-4 border-sky-900/90 shadow-md shadow-sky-700'>
+            <div className='max-w-[90%] sm:max-w-[90%] h-[75vh] sm:h-[75vh] w-full mx-auto pt-[14vh]  z-0 '>
+                <div style={{backgroundImage: `url(${slides[slideIndex].url})`}} className='w-full h-full bg-center bg-cover rounded-3xl duration-500 border-4 border-yellow-700/90 shadow-md shadow-yellow-700'>
                 </div>
-                <h1 className='flex flex-row text-2xl sm:text-6xl text-slate-300 pt-[8vh] max-w-fit mx-auto '>We <BsBalloonHeartFill className='text-4xl sm:text-[5rem] text-red-500 mx-2 sm:mx-4  animate-pulse '/> Food!</h1>
+                <h1 className='flex flex-row text-2xl sm:text-6xl text-slate-300 pt-[8vh] max-w-fit mx-auto '> We <BsBalloonHeartFill className='text-4xl sm:text-[5rem] text-red-500 mx-2 sm:mx-4  animate-pulse '/> Food !</h1>
 
 
             </div>
