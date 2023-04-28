@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.appear {
+    width:100%
+    
+}
 
+.disappear {
+    display:none
+}
