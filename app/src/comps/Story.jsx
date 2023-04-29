@@ -5,7 +5,7 @@ export default function Story() {
 
     return (<div className="bg-gradient-to-b from-violet-900 from-5% via-slate-950 via-30% to-stone-950 to-90% p-2 ">
 
-        <div className="flex flex-col border-1 border-purple-700/50 bg-purple-800 border- p-8 m-4 rounded-2xl shadow-xl shadow-purple-800 space-y-4">
+        <div className="flex flex-col border-1 border-purple-700/50 bg-purple-800 border- p-8 m-4 rounded-2xl  space-y-4">
             <h1 className="flex flex-row max-w-fit mx-auto text-[3rem] sm:text-[4rem] font-semibold text-purple-300/80">Our Story</h1>
 
         <div className="sm:flex sm:flex-row sm:space-x-4 place-items-center">
