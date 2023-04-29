@@ -27,7 +27,7 @@ export default function Story() {
                 </div>
 
                 <div className="sm:basis-1/2 text-2xl text-purple-300/80 pt-10  sm:order-2">
-                    Lorem ipsum dolor si amet consectetur adipisicing elit. Optio asperiores earu, distinctio fugit reprehenderit esse nam doloribus quisquam ab vitae est voluptatibus. Numquam repudiandae porro quae mollitia at, quisquam accusamus.
+                    Lorem ipsum dolor s amet consectetur adipisicing elit. Optio asperiores earu, distinctio fugit reprehenderit esse nam doloribus quisquam ab vitae est voluptatibus. Numquam repudiandae porro quae mollitia at, quisquam accusamus.
                 </div>
 
         </div>
