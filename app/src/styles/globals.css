@@ -10,3 +10,7 @@
 .disappear {
     display:none
 }
+
+.glassBlur {
+    backdrop-filter: blur(20px);
+}
