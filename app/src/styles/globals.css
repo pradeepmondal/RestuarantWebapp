@@ -14,3 +14,9 @@
 .glassBlur {
     backdrop-filter: blur(20px);
 }
+
+.appearH {
+    height:100vh
+    
+}
+
