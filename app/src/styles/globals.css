@@ -20,3 +20,23 @@
     
 }
 
+.bgInGr {
+    background: rgb(0,0,0);
+    background: linear-gradient(50deg, rgba(0,0,0,1) 15%, rgba(175,29,253,1) 50%, rgba(0,0,0,1) 85%);
+    backdrop-filter: blur(100px);
+    transition: cubic-bezier(1, 0, 0, 1);
+    transition-duration: 1000ms;
+
+}
+
+.bgFnGr {
+
+    background: rgb(8,57,116);
+    background: linear-gradient(100deg, rgba(8,57,116,1) 32%, rgba(253,45,238,1) 100%);
+    transition: cubic-bezier(1, 0, 0, 1);
+    transition-duration: 1000ms;
+    
+}
+
+
+

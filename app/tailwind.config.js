@@ -4,7 +4,8 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/comps/**/*.{js,ts,jsx,tsx,mdx}'
+    './src/comps/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/styles/globals.css'
   ],
   theme: {
     extend: {
