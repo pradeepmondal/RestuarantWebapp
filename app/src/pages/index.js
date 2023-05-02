@@ -5,18 +5,41 @@ import Intro from '@/comps/Intro'
 import Story from '@/comps/Story'
 import StartAnimation from '@/comps/StartAnimation'
 
+import { useState, useEffect } from 'react'
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return (
-    <div>
-      <StartAnimation />
-      <Nav />
-      <Intro />
-      <Story />
+
+  const [showOth, setShowOth] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowOth(true);
+    }, 11000);
+    
+  }, []);
+
+  
+
+  return  (
+  
+  <div>
+    <StartAnimation />
+    {showOth && <Nav />}
+    {showOth && <Intro />}
+    {showOth && <Story />}
+    
       
-    </div>
+      
+
+  </div>
+  
   )
+
+  
+  
+  
+
+
+  
 }

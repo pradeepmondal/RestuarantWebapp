@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRef, useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect';
+// import setShowNav from './../pages/index'
 
 export default function StartAnimation() {
 
@@ -64,6 +65,8 @@ export default function StartAnimation() {
         
 
       },[deg]);
+
+   
       
 
 

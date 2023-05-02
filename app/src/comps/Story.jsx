@@ -1,9 +1,52 @@
-import React from "react"
-import Image from "next/image"
+import React, { useRef, useState, useEffect } from 'react';
 
 export default function Story() {
 
-    return (<div className="bg-gradient-to-b from-violet-900 from-5% via-slate-950 via-30% to-stone-950 to-90% p-2 ">
+    const storySec = useRef('')
+    const [stControl, setStControl] = useState(true)
+    const [deg, changeDeg] = useState(25);
+
+
+
+    function bgChange() {
+        setTimeout(() => {
+
+            
+                
+            
+
+            
+            
+            storySec.current.style.background = `linear-gradient(${deg}deg, rgba(0,0,0,1) 15%, rgba(100,0,180,1)  50%, rgba(0,0,0,1) 85%)`;
+
+
+
+            if(stControl && deg==249){
+                setStControl(false)
+            }
+            else if(stControl===false && deg===25.25){
+                setStControl(true)
+            }
+            else if(stControl){
+            changeDeg(deg+0.25);
+            }
+            else{
+                changeDeg(deg-0.25)
+            }
+
+        }, 10)
+
+
+    }
+
+    useEffect(() => {
+        
+        bgChange();
+        
+
+      },);
+
+    return (<div ref = {storySec} className="bg-gradient-to-b from-violet-900 from-5% via-slate-950 via-30% to-stone-950 to-90% p-2 ">
 
         <div className="flex flex-col border-1 border-purple-700/50 bg-purple-800 border- p-8 m-4 rounded-2xl  space-y-4">
             <h1 className="flex flex-row max-w-fit mx-auto text-[3rem] sm:text-[4rem] font-semibold text-purple-300/80">Our Story</h1>
