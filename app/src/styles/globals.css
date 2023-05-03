@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes animate-background {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 40% 80%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
 .appear {
     width:100%
     
@@ -37,6 +52,20 @@
     transition-duration: 1000ms;
     
 }
+
+.bgAnimationIntro {
+    background: linear-gradient(to bottom right, rgba(0,0,0,1) 20%, rgba(100,0,80,1) 50%, rgba(0,0,0,1) 80%);
+    background-size: 300% 300%;
+    animation: animate-background 10s infinite ease-in-out;
+}
+
+.bgAnimationStory {
+    background: linear-gradient(to top left, rgba(0,0,0,1) 20%, rgb(95, 57, 14) 50%, rgba(0,0,0,1) 80%);
+    background-size: 300% 300%;
+    animation: animate-background 10s infinite ease-in-out;
+}
+
+
 
 
 
