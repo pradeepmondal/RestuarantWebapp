@@ -65,6 +65,12 @@
     animation: animate-background 10s infinite ease-in-out;
 }
 
+.bgAnimationContact {
+    background: linear-gradient(to top left, rgb(3, 2, 48) 20%, rgb(0, 0, 0) 50%, rgb(3, 2, 48) 80%);
+    background-size: 300% 300%;
+    animation: animate-background 10s infinite ease-in-out;
+}
+
 
 
 

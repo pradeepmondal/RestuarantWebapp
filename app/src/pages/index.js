@@ -4,6 +4,7 @@ import Nav from '@/comps/Nav'
 import Intro from '@/comps/Intro'
 import Story from '@/comps/Story'
 import StartAnimation from '@/comps/StartAnimation'
+import Contact from '@/comps/Contact'
 
 import { useState, useEffect } from 'react'
 
@@ -28,6 +29,7 @@ export default function Home() {
     {showOth && <Nav />}
     {showOth && <Intro />}
     {showOth && <Story />}
+    {showOth && <Contact />}
     
       
       
