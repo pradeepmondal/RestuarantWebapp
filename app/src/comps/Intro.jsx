@@ -17,7 +17,7 @@ export default function Intro(){
     const [stControl, setStControl] = useState(true)
 
     const slides = [
-        ph1, ph2, ph3
+        ph1, ph2, ph3, ph4
     ]
 
 
