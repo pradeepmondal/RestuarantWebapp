@@ -35,7 +35,7 @@ export default function Story() {
 
                     Lorem ipsum dolor s met consectetu adipisicing elit. Optio asperiores earu, distinctio fugit reprehenderit esse nam doloribus quisquam ab vitae est voluptatibus. Numquam repudiandae porro quae mollitia at, quisquam accusamus.
 
-                    Lorem ipsum dolor s amet consectetur adipisicing elit. Optio asperiores earu, distinctio fugit reprehenderit esse nam doloribus quisquam ab vitae est voluptatibus. Numquam repudiandae porro quae mollitia at, quisquam accusamus.
+                    orem ipsum dolor s amet consectetur adipisicing elit. Optio asperiores earu, distinctio fugit reprehenderit esse nam doloribus quisquam ab vitae est voluptatibus. Numquam repudiandae porro quae mollitia at, quisquam accusamus.
 
                 </div>
 
