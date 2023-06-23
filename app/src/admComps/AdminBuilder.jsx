@@ -24,6 +24,7 @@ const AdminBuilder =  ( () => {
   const handleLogout = () => {
     if(typeof window !== 'undefined'){
         localStorage.removeItem('authTkn')
+        setDataFromLogin('')
         setTkn(null)
     }
   }
