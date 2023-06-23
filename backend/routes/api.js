@@ -41,6 +41,7 @@ router.post('/admin/login', cors(), async(req, res)=>{
 
                 return res.status(200).json({
                     message: 'success',
+                    username: check.username,
                     token: tkn,
                     user_id: check._id
                 })
